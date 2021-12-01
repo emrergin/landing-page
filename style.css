@@ -1,0 +1,39 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    margin:0px;
+    padding:0px;
+    gap: 15px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.tepe{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size:18px;
+}
+
+.tepe1{
+    display:flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.tepe2{
+    display: flex;
+}
