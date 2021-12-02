@@ -77,7 +77,11 @@ h1{
 
 .tepe2 img{
     max-width: 60vw;
-    max-height: auto;
+    /* max-height: auto;
+    max-width:100%; */
+    /* display: flex; */
+    /* flex-flow: row nowrap; */
+    /* align-items: center; */
 }
 
 .button{
@@ -200,7 +204,8 @@ h2{
     padding: 15px;
     border-radius: 15px;
     gap: 5vw;
-    /* border: 3px solid red;  */
+    border: 3px solid red; 
+    align-self:center;
 }
 
 
