@@ -1,19 +1,21 @@
 *{
     font-family: 'Roboto', sans-serif;
     /* margin: 0;  */
+    /* padding:0px; */
 }
 
 .hersey{
     display:flex;
     flex-direction: column;
     align-items: center;
-    width:100vw;
+    /* height:100vh; */
+    width:100%;
     margin: 0; 
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 body{
-    margin:0px;
+    margin:0px -2px;
 }
 
 ul{
@@ -52,6 +54,11 @@ h1{
     width:80vw;
 }
 
+.headerlink{
+    color:inherit;
+    text-decoration: none;
+}
+
 .logo{
     font-size: 24px;
     color: #F9FAF8;
@@ -68,28 +75,41 @@ h1{
 
 .tepe2 img{
     max-width: 60vw;
+    height: auto;
 }
 
-button{
+.button{
     background-color: #3882f6;
     color: #F9FAF8;
     border-radius: 10px;
     padding:10px 40px;
     display: block;
     font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-.tepe2 button{
+.tepe2 .button{
     border:none;
+    width: 4vw;
+    text-align: center;
+    /* align-self: center; */
 }
 
-.buyukdugme{
-    border: 4px solid #F9FAF8;
+.buyukdugme .button{
+    border: 3px solid #F9FAF8;
 }
+
+
+/* .buyukdugme{
+    border: 4px solid #F9FAF8;
+} */
 
 .sol{
     /* display:flex;
-    flex-direction: column; */
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start; */
     max-width: 40vw;
 }
 
@@ -139,6 +159,8 @@ h2{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-sizing: border-box; 
+    margin:0px;
 }
 
 .kaynak{
@@ -178,6 +200,8 @@ h2{
     display:flex;
     justify-content: center;
     padding: 20px;
+    box-sizing: border-box; 
+    margin:0px;
 }
 
 /* Resimleri Ortalamak icin */
