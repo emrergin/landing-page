@@ -65,6 +65,11 @@ h1{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+    /* width: 80px; */
+    /* background-color: white; */
+    /* border: 20px solid #1F2937; */
+    /* border: 20px solid red; */
+    /* border-radius:20px; */
 }
 
 .tepe2{
@@ -204,7 +209,7 @@ h2{
     padding: 15px;
     border-radius: 15px;
     gap: 5vw;
-    border: 3px solid red; 
+    /* border: 3px solid red;  */
     align-self:center;
 }
 
@@ -241,3 +246,10 @@ h2{
     transform: translateX(-50%);
   } */
 
+/* Mobil */
+@media (max-width:700px) { 
+    .tepe2 img{
+        display:none;
+    }
+
+}
