@@ -10,7 +10,7 @@
     align-items: stretch;
     /* height:100vh; */
     width:100%;
-    margin: 0; 
+    margin: 0px; 
     box-sizing: border-box;
     /* border: 3px solid red;  */
 }
@@ -41,6 +41,7 @@ h1{
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin:0px;
     /* width: 100vw; */
     /* border: 3px solid red;  */
 }
@@ -161,6 +162,7 @@ h1{
     /* border: 3px solid red; */
     align-self: center;
     flex-wrap: wrap;
+    margin:0px;
 }
 
 h2{
@@ -183,7 +185,7 @@ h2{
     align-items: center;
     flex-direction: column;
     box-sizing: border-box; 
-    margin:0px;
+    margin:10px 0px 0px 0px;
     /* border: 3px solid red;  */
 }
 
@@ -204,7 +206,8 @@ h2{
     align-items: center;
     width:80vw;
     justify-content: center;
-    margin: 10vh;
+    /* margin: 10vh; */
+    margin: 10vh 0vh;
     padding: 15px;
     border-radius: 15px;
     gap: 5vw;
@@ -236,11 +239,7 @@ h2{
     .tepe2 img{
         display:none;
     }
-    .album{
-        width: 100vw;
-        padding:0px;
-        box-sizing: border-box; 
-    }
+
     /* .orta{
         width:100vw;
         padding:0px;
@@ -252,5 +251,16 @@ h2{
     }
     .card{
         width:42vw;
+    }
+
+    .album{
+        width: 100vw;
+        padding:0px;
+        /* box-sizing: border-box; */
+        /* gap: 2px; */
+    }
+    .buyukdugme
+    {
+        margin: 3vh 0vh;
     }
 }
