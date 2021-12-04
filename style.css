@@ -237,8 +237,16 @@ h2{
         display:none;
     }
     .album{
-        width:100vw;
+        width: 100vw;
+        padding:0px;
+        box-sizing: border-box; 
     }
+    /* .orta{
+        width:100vw;
+        padding:0px;
+        margin:0px;
+        box-sizing: border-box;
+    } */
     .card img{
         width:40vw;
     }
